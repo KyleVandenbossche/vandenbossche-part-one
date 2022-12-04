@@ -1,0 +1,175 @@
+@media screen and (min-width: 480px) {
+}
+ 
+@media screen and (min-width: 768px) {
+}
+
+
+header{
+    background-color: #F2F2F2;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+body{
+    margin:0%;
+}
+
+.nav-list{
+    list-style-type: none;
+    right: 5px;
+    display: inline;
+    
+}
+
+ul >li{
+    display: inline-block;
+   
+}
+
+h1{
+    display: inline;
+    color: #20a8b4;
+    margin-left: 15px;
+
+}
+
+.code{
+    color: #ff5c0f;
+}
+
+.code1{
+    color: #ff5c0f;
+}
+
+#main-photo{
+    position: absolute;
+    right: 0;
+    top: 150px;
+    right: 50px;
+    max-width: 100%;
+
+}
+
+@media (max-width:768px) {
+    img#main-photo{
+        display: none;
+    }
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    
+}
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color:#ff5c0f;
+}
+
+.contact-us:link{
+    padding: 10px;
+    background-color: #20a8b4;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.contact-us:hover{
+    background-color: #ff5c0f;
+    border-radius: 10px;
+    color: white;
+}
+
+h3 {
+    padding: 8px;
+    background-color: #20a8b4 ;
+    align-items: left;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+    
+
+}
+
+.learn-more:link{
+    padding: 10px;
+    background-color: #20a8b4;
+    width: 75px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+}
+
+.learn-more:hover{
+    background-color: #ff5c0f;
+    border-radius: 10px;
+    color: white;
+}
+
+
+h4{
+    margin-left: 15px;
+    font: bold;
+}
+
+p{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+
+
+a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+  }
+  
+  a:hover {
+    color: #ff5c0f;
+  }
+  
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  @media screen and (min-width: 480px) {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    li {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+    
+    li {
+      width: auto;
+    }
+  }
